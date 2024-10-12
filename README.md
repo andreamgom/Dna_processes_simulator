@@ -2,17 +2,22 @@
 
 ## Descripción
 
-Este proyecto simula los procesos biológicos de replicación, transcripción y traducción del ADN. Incluye funciones para replicar secuencias de ADN, transcribirlas a ARN mensajero (ARNm) y traducir el ARNm en cadenas de aminoácidos (proteínas). Además, se visualizan estas etapas mediante gráficos interactivos utilizando la biblioteca Tkinter para la interfaz gráfica y Matplotlib para la creación de gráficos.
+Este proyecto es una emocionante simulación de los procesos biológicos fundamentales que ocurren en todas las células: **replicación**, **transcripción** y **traducción** del ADN. A través de este software, podrás observar cómo las secuencias de ADN se replican, cómo se transcriben a ARN mensajero (ARNm) y cómo se traducen en cadenas de aminoácidos (proteínas). 
+
+Además, la práctica incluye la visualización de estas etapas mediante gráficos interactivos. Utilizamos la biblioteca **Tkinter** para crear una interfaz gráfica amigable, junto con **Matplotlib** para generar gráficos que ilustran claramente la estructura del ADN, ARN y las proteínas resultantes.
 
 ## Tecnologías Usadas
 
-- **Python**: Lenguaje de programación principal utilizado por su versatilidad y facilidad de uso.
-- **Tkinter**: Biblioteca utilizada para crear la interfaz gráfica del usuario, permitiendo una interacción sencilla y visualización de los gráficos.
-- **Matplotlib**: Herramienta de visualización que facilita la creación de gráficos para mostrar las estructuras del ADN, ARN y proteínas.
-- **NumPy**: Usada para realizar cálculos numéricos y manejar arreglos, especialmente en la visualización de datos.
+- **Python**: El lenguaje de programación principal de este proyecto, elegido por su versatilidad y facilidad de uso en aplicaciones científicas.
+- **Biopython**: Una biblioteca poderosa que permite trabajar con datos biológicos, como el manejo de archivos **FASTA**, facilitando la manipulación y análisis de secuencias de ADN y proteínas.
+- **Tkinter**: Utilizada para crear la interfaz gráfica del usuario, permite interacciones sencillas y visualización de gráficos de forma intuitiva.
+- **Matplotlib**: Esta herramienta de visualización hace posible la creación de gráficos que muestran de manera clara las estructuras del ADN, ARN y las proteínas generadas.
+- **NumPy**: Utilizada para realizar cálculos numéricos y manejar arreglos, especialmente en la visualización de datos.
 
-Se seleccionaron estas bibliotecas por su amplia adopción en la comunidad científica y su capacidad para manejar de manera eficiente las operaciones requeridas en la simulación.
+Elegimos estas tecnologías por su amplia adopción en la comunidad científica y su capacidad para manejar de manera eficiente las operaciones necesarias para la simulación de estos procesos biológicos.
 
 ## Razonamiento
 
-El enfoque implementado es adecuado para este tipo de problema porque permite simular de manera visual y educativa los procesos complejos de la biología molecular. Al dividir el proyecto en secciones claras (replicación, transcripción y traducción), se facilita la comprensión de cada etapa. Además, el uso de gráficos interactivos permite a los usuarios visualizar el funcionamiento interno de estos procesos, mejorando el aprendizaje y la retención de información.
+El enfoque implementado es ideal para simular procesos biológicos porque permite a los usuarios explorar visualmente etapas complejas de la biología molecular. Al dividir el proyecto en secciones claras (replicación, transcripción y traducción), facilitamos la comprensión de cada etapa del proceso. 
+
+Además, el uso de gráficos interactivos no solo hace que la experiencia sea más envolvente, sino que también mejora el aprendizaje y la retención de información al permitir a los usuarios observar cómo interactúan las moléculas en cada fase de la biología molecular.
